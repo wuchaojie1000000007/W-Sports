@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.wsports.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.wsports.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/helpCentreFragment"
+        android:name="com.example.wsports.HelpCentreFragment"
+        android:label="fragment_help_centre"
+        tools:layout="@layout/fragment_help_centre" />
+    <fragment
+        android:id="@+id/listsFragment"
+        android:name="com.example.wsports.ListsFragment"
+        android:label="fragment_lists"
+        tools:layout="@layout/fragment_lists" />
+    <fragment
+        android:id="@+id/mySportsFragment"
+        android:name="com.example.wsports.MySportsFragment"
+        android:label="fragment_my_sports"
+        tools:layout="@layout/fragment_my_sports" >
+        <action
+            android:id="@+id/action_mySportsFragment_to_myFavoriteSportsFragment"
+            app:destination="@id/myFavoriteSportsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.wsports.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/settingsAndPrivacyFragment"
+        android:name="com.example.wsports.SettingsAndPrivacyFragment"
+        android:label="fragment_settings_and_privacy"
+        tools:layout="@layout/fragment_settings_and_privacy" />
+    <fragment
+        android:id="@+id/myFavoriteSportsFragment"
+        android:name="com.example.wsports.MyFavoriteSportsFragment"
+        android:label="fragment_my_favorite_sports"
+        tools:layout="@layout/fragment_my_favorite_sports" />
+</navigation>

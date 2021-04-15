@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">W Sports</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="account">Account</string>
+    <string name="profile">Profile</string>
+    <string name="my_sports">My Sports</string>
+    <string name="lists">Lists</string>
+    <string name="settings_and_privacy">Settings and privacy</string>
+    <string name="help_centre">Help Centre</string>
+    <string name="my_favorite_sports">My Favorite Sports</string>
+
+    <string name="home_fragment">Home Fragment</string>
+    <string name="account_fragment">Account Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="my_sports_fragment">My Sports Fragment</string>
+    <string name="lists_fragment">Lists Fragment</string>
+    <string name="settings_and_privacy_fragment">Settings and Privacy Fragment</string>
+    <string name="help_centre_fragment">Help Centre Fragment</string>
+    <string name="my_favorite_sports_fragment">My Favorite Sports Fragment</string>
+    <string name="image_of_hana">Image of Hana</string>
+</resources>
